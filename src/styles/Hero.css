@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Griffy&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.main {
+  background-color: #f7f1ea;
+}
+.profile {
+  width: 29rem;
+  height: 37.5rem;
+  /* border-radius: 0.6rem; */
+}
+.text-profile {
+  color: #877419;
+  font-style: normal;
+  width: 35%;
+}
+.text-profile h1 {
+  font-family: "Roboto", "Sans Serif";
+}
+.text-profile h1 {
+  font-family: "Griffy", "Sans Serif";
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: typing 4.5s steps(40, end), blink-caret 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #f7f1ea;
+  }
+}

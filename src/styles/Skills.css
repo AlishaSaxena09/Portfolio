@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Griffy&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.skills {
+  background-color: #f7f1ea;
+  position: absolute;
+  top: 0;
+  padding-top: 28rem;
+  width: 100%;
+}
+
+.skills-img {
+  width: 30rem;
+  height: 30rem;
+}
+
+.skills h2 {
+  font-family: "Roboto", "sans serif";
+  color: #877419;
+}
+.skills-temp {
+  padding: 6rem;
+}
+
+.category {
+  color: #877419;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.skill-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  /* justify-content: center; */
+}
+
+.skill-list span {
+  color: #877419;
+}
+
+.bg-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+}
+.react-div {
+  top: -35%;
+  left: 50%;
+}
+.react-img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.next-div {
+  top: -79%;
+  left: 66%;
+}
+.next-img {
+  width: 8rem;
+  height: 8rem;
+}
+.ang-div {
+  top: -83%;
+  left: 38%;
+}
+.ang-img {
+  width: 6rem;
+  height: 6rem;
+}
+.red-div {
+  top: -45%;
+  left: 77%;
+}
+.red-img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.js-div {
+  top: -49%;
+  left: 28%;
+}
+
+.icon-skill {
+  font-size: 5rem;
+  font-weight: 100;
+  color: #f3aab6;
+}
+.code-div {
+  left: 0;
+  top: -45%;
+}
+.code-div span {
+  font-weight: 400;
+  font-size: 4rem;
+  color: #877419;
+}
